@@ -1,0 +1,234 @@
+<title>Termos de Serviço — Taiom.Nunes</title>
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --surface: #ffffff;
+    --ink: #1a2233;
+    --ink-muted: #5b6472;
+    --accent: #2f6f5e;
+    --accent-soft: #e4f0ec;
+    --border: #e2e5ea;
+    --rule: #d7dbe1;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12161c;
+      --surface: #1a2029;
+      --ink: #edeff2;
+      --ink-muted: #a0a8b4;
+      --accent: #62c2a5;
+      --accent-soft: #1e2e29;
+      --border: #2a313c;
+      --rule: #333b46;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #12161c;
+    --surface: #1a2029;
+    --ink: #edeff2;
+    --ink-muted: #a0a8b4;
+    --accent: #62c2a5;
+    --accent-soft: #1e2e29;
+    --border: #2a313c;
+    --rule: #333b46;
+  }
+  :root[data-theme="light"] {
+    --bg: #f6f7f9;
+    --surface: #ffffff;
+    --ink: #1a2233;
+    --ink-muted: #5b6472;
+    --accent: #2f6f5e;
+    --accent-soft: #e4f0ec;
+    --border: #e2e5ea;
+    --rule: #d7dbe1;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+
+  .doc {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .doc-top {
+    height: 4px;
+    background: var(--accent);
+  }
+
+  .doc-inner {
+    padding: 48px clamp(24px, 6vw, 64px) 56px;
+  }
+
+  .eyebrow {
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+    margin: 0 0 14px;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", ui-serif, serif;
+    font-size: clamp(1.7rem, 4vw, 2.15rem);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    margin: 0 0 6px;
+    text-wrap: balance;
+    color: var(--ink);
+  }
+
+  .meta-line {
+    color: var(--ink-muted);
+    font-size: 0.92rem;
+    margin: 0 0 40px;
+  }
+
+  .meta-line strong { color: var(--ink); font-weight: 600; }
+
+  h2 {
+    font-family: Georgia, "Times New Roman", ui-serif, serif;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin: 40px 0 12px;
+    color: var(--ink);
+    text-wrap: balance;
+  }
+
+  h2:first-of-type { margin-top: 0; }
+
+  p { margin: 0 0 14px; color: var(--ink); max-width: 62ch; }
+
+  ul, ol { margin: 0 0 14px; padding-left: 1.2em; max-width: 62ch; }
+  li { margin-bottom: 8px; }
+
+  .section-num {
+    display: inline-block;
+    min-width: 1.6em;
+    color: var(--accent);
+    font-weight: 600;
+    font-family: Georgia, "Times New Roman", ui-serif, serif;
+  }
+
+  .contact-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: baseline;
+    border-top: 1px solid var(--rule);
+    padding-top: 24px;
+    margin-top: 36px;
+  }
+
+  .contact-label {
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    margin: 0 0 4px;
+  }
+
+  .contact-value {
+    font-size: 1.02rem;
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .footer-note {
+    color: var(--ink-muted);
+    font-size: 0.82rem;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+  }
+
+  @media (max-width: 520px) {
+    .page { padding: 40px 16px 64px; }
+    .doc-inner { padding: 36px 22px 44px; }
+  }
+</style>
+
+<div class="page">
+  <div class="doc">
+    <div class="doc-top"></div>
+    <div class="doc-inner">
+      <p class="eyebrow">Aplicativo Taiom.Nunes</p>
+      <h1>Termos de Serviço</h1>
+      <p class="meta-line">Última atualização: <strong>17 de julho de 2026</strong></p>
+
+      <h2><span class="section-num">1.</span> Aceitação dos termos</h2>
+      <p>
+        Ao conectar sua conta do Instagram/Facebook ao aplicativo Taiom.Nunes e
+        autorizar o acesso via login do Meta, você concorda com estes Termos de
+        Serviço. Se você não concorda com algum ponto, não utilize o aplicativo.
+      </p>
+
+      <h2><span class="section-num">2.</span> Descrição do serviço</h2>
+      <p>
+        O Taiom.Nunes é uma ferramenta de gerenciamento de conta do Instagram que
+        utiliza a API oficial do Meta para ajudar o usuário a administrar conteúdo
+        e informações da própria conta conectada. O acesso é concedido e revogável
+        a qualquer momento diretamente pelas configurações do Instagram/Facebook.
+      </p>
+
+      <h2><span class="section-num">3.</span> Responsabilidades do usuário</h2>
+      <ul>
+        <li>Você é responsável por manter suas credenciais de acesso em segurança.</li>
+        <li>Você deve utilizar o aplicativo apenas para gerenciar contas sobre as quais tem autorização legítima.</li>
+        <li>É proibido usar o aplicativo para spam, automação abusiva ou qualquer prática que viole as Políticas da Plataforma Meta.</li>
+      </ul>
+
+      <h2><span class="section-num">4.</span> Relação com o Meta</h2>
+      <p>
+        O Taiom.Nunes não é afiliado, endossado ou patrocinado pelo Meta Platforms,
+        Inc. O acesso à conta é feito exclusivamente através da API oficial e das
+        permissões concedidas pelo próprio usuário no momento da autorização.
+      </p>
+
+      <h2><span class="section-num">5.</span> Limitação de responsabilidade</h2>
+      <p>
+        O aplicativo é fornecido "como está". Não nos responsabilizamos por perdas
+        decorrentes de indisponibilidade da API do Meta, alterações nas políticas
+        da plataforma, ou uso indevido das credenciais por terceiros.
+      </p>
+
+      <h2><span class="section-num">6.</span> Alterações nestes termos</h2>
+      <p>
+        Estes termos podem ser atualizados periodicamente. Alterações relevantes
+        serão comunicadas através do e-mail de contato associado à conta.
+      </p>
+
+      <div class="contact-card">
+        <div>
+          <p class="contact-label">Contato</p>
+          <p class="contact-value"><a href="mailto:taweragt@gmail.com">taweragt@gmail.com</a></p>
+        </div>
+      </div>
+
+      <p class="footer-note">
+        Consulte também a <a href="https://claude.ai/code/artifact/b42772d3-5009-47c9-810f-cd8163199a18">Política de Exclusão de Dados</a> do aplicativo Taiom.Nunes.
+      </p>
+    </div>
+  </div>
+</div>

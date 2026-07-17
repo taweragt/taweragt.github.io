@@ -1,0 +1,250 @@
+<title>Política de Exclusão de Dados — Taiom.Nunes</title>
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --surface: #ffffff;
+    --ink: #1a2233;
+    --ink-muted: #5b6472;
+    --accent: #2f6f5e;
+    --accent-soft: #e4f0ec;
+    --border: #e2e5ea;
+    --rule: #d7dbe1;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12161c;
+      --surface: #1a2029;
+      --ink: #edeff2;
+      --ink-muted: #a0a8b4;
+      --accent: #62c2a5;
+      --accent-soft: #1e2e29;
+      --border: #2a313c;
+      --rule: #333b46;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #12161c;
+    --surface: #1a2029;
+    --ink: #edeff2;
+    --ink-muted: #a0a8b4;
+    --accent: #62c2a5;
+    --accent-soft: #1e2e29;
+    --border: #2a313c;
+    --rule: #333b46;
+  }
+  :root[data-theme="light"] {
+    --bg: #f6f7f9;
+    --surface: #ffffff;
+    --ink: #1a2233;
+    --ink-muted: #5b6472;
+    --accent: #2f6f5e;
+    --accent-soft: #e4f0ec;
+    --border: #e2e5ea;
+    --rule: #d7dbe1;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+
+  .doc {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .doc-top {
+    height: 4px;
+    background: var(--accent);
+  }
+
+  .doc-inner {
+    padding: 48px clamp(24px, 6vw, 64px) 56px;
+  }
+
+  .eyebrow {
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+    margin: 0 0 14px;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", ui-serif, serif;
+    font-size: clamp(1.7rem, 4vw, 2.15rem);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    margin: 0 0 6px;
+    text-wrap: balance;
+    color: var(--ink);
+  }
+
+  .meta-line {
+    color: var(--ink-muted);
+    font-size: 0.92rem;
+    margin: 0 0 40px;
+  }
+
+  .meta-line strong { color: var(--ink); font-weight: 600; }
+
+  h2 {
+    font-family: Georgia, "Times New Roman", ui-serif, serif;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin: 40px 0 12px;
+    color: var(--ink);
+    text-wrap: balance;
+  }
+
+  h2:first-of-type { margin-top: 0; }
+
+  p { margin: 0 0 14px; color: var(--ink); max-width: 62ch; }
+
+  ul { margin: 0 0 14px; padding-left: 1.2em; max-width: 62ch; }
+  li { margin-bottom: 8px; }
+
+  .callout {
+    background: var(--accent-soft);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 3px;
+    padding: 20px 24px;
+    margin: 20px 0 28px;
+  }
+
+  .callout h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin: 0 0 10px;
+    color: var(--ink);
+  }
+
+  .callout ol {
+    margin: 0;
+    padding-left: 1.2em;
+  }
+
+  .callout li { margin-bottom: 8px; }
+  .callout li:last-child { margin-bottom: 0; }
+
+  .contact-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: baseline;
+    border-top: 1px solid var(--rule);
+    padding-top: 24px;
+    margin-top: 36px;
+  }
+
+  .contact-label {
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    margin: 0 0 4px;
+  }
+
+  .contact-value {
+    font-size: 1.02rem;
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .footer-note {
+    color: var(--ink-muted);
+    font-size: 0.82rem;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+  }
+
+  @media (max-width: 520px) {
+    .page { padding: 40px 16px 64px; }
+    .doc-inner { padding: 36px 22px 44px; }
+  }
+</style>
+
+<div class="page">
+  <div class="doc">
+    <div class="doc-top"></div>
+    <div class="doc-inner">
+      <p class="eyebrow">Aplicativo Taiom.Nunes</p>
+      <h1>Política de Exclusão de Dados</h1>
+      <p class="meta-line">Última atualização: <strong>17 de julho de 2026</strong></p>
+
+      <h2>Sobre este aplicativo</h2>
+      <p>
+        O Taiom.Nunes é um aplicativo de integração com a API do Instagram/Meta,
+        usado para gerenciamento de conta e conteúdo do Instagram conectado pelo
+        usuário. Esta página explica quais dados são armazenados e como qualquer
+        pessoa pode solicitar a exclusão completa dos seus dados.
+      </p>
+
+      <h2>Quais dados armazenamos</h2>
+      <ul>
+        <li>Token de acesso concedido pelo Meta para operar a conta conectada.</li>
+        <li>Informações básicas de perfil (nome de usuário, ID da conta, foto pública).</li>
+        <li>Metadados de conteúdo necessários para as funcionalidades de gerenciamento (ex.: listas de publicações, métricas públicas).</li>
+      </ul>
+      <p>Não armazenamos senhas do Instagram/Facebook — o acesso é feito exclusivamente via login oficial do Meta.</p>
+
+      <h2>Como solicitar a exclusão dos seus dados</h2>
+      <div class="callout">
+        <h3>Duas formas de solicitar</h3>
+        <ol>
+          <li>
+            <strong>Revogar o acesso pelo Meta:</strong> em Instagram/Facebook, acesse
+            Configurações → Aplicativos e Sites → localize "Taiom.Nunes" → remova o
+            aplicativo. Isso envia automaticamente um pedido de exclusão de dados ao
+            nosso sistema.
+          </li>
+          <li>
+            <strong>Solicitar diretamente por e-mail:</strong> envie uma mensagem para
+            <a href="mailto:taweragt@gmail.com">taweragt@gmail.com</a> com o assunto
+            "Exclusão de dados" e o nome de usuário da conta conectada.
+          </li>
+        </ol>
+      </div>
+
+      <h2>Prazo e confirmação</h2>
+      <p>
+        Após recebida a solicitação, todos os dados associados à conta são removidos
+        em até <strong>30 dias</strong>. Uma confirmação é enviada para o e-mail de
+        contato informado na solicitação.
+      </p>
+
+      <div class="contact-card">
+        <div>
+          <p class="contact-label">Contato para privacidade</p>
+          <p class="contact-value"><a href="mailto:taweragt@gmail.com">taweragt@gmail.com</a></p>
+        </div>
+      </div>
+
+      <p class="footer-note">
+        Esta política se aplica exclusivamente aos dados obtidos por meio da integração
+        com a API do Meta/Instagram para o aplicativo Taiom.Nunes.
+      </p>
+    </div>
+  </div>
+</div>
